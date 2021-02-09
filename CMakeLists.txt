@@ -19,3 +19,5 @@ target_include_directories(Calculator PUBLIC
                           "${PROJECT_SOURCE_DIR}/Calculate"
                           "${PROJECT_SOURCE_DIR}/Convert"
                           )
+
+add_subdirectory(test)
